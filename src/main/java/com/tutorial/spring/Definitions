@@ -1,0 +1,12 @@
+@Controller - odpowiada za dostarczenie odpowiedniego widoku (element wyświetlany użytkownikowi)
+z modelem (nośnikiem danych do widoku). Aby sprawić, aby klasa stałą się Conroller wykorzystujemy
+adnotację @Controller. Dzięki temu w klasie możemy dodać mappingi, które będą zwracały odpowiednie
+widoki na podsawie żądania.
+
+@Autowired - adnotacja, przy pomocy, której dokonywane jest wstrzykiwanie zalezności.
+
+ApplicationContext - kontekst, który jest tworzony, aby uruchomić kontener IoC (Inversion of Control),
+który w Springu zarządza Bean'ami.
+
+@Component - deklaracja automatyczna Bean'a na podstawie ich definicji.
+
